@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Gothic+A1&family=Libre+Baskerville&family=Libre+Franklin&display=swap');
+
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+.container-fluid{
+    padding: 1% 5%;
+}
+#Home{
+    /* background-color: rgba(79, 79, 79, 0.35); */
+    background-image: url("images/home-page-background.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+}
+.navbar{
+    font-family: Gothic A1;
+    padding: 1%;
+}
+.navbar-brand{
+    padding: 0 2% ;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.active{
+    color: #FCB712;
+}
+.home-content{
+    padding:0 5% ;
+    color: white;
+    padding: 5% 0 15% 3%;
+}
+h1{
+    font-family: 'Gothic A1', sans-serif;
+    /* width: 60%; */
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 6rem;
+}
+span{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #FCB712;
+}
+.home-content p{
+    font-weight:400;
+    font-size: 1.2rem;
+    margin-top: 3%;
+    width: 80%;
+    line-height: 2rem;
+}
+.btn{
+    margin-top: 2%;
+    padding: 2%;
+    line-height: 1.5rem;
+    border: none;
+}
+.btn-success {
+    background-color: #45A102;
+    opacity: 0.9;
+    border-radius: 60px;
+}
+.btn-primary{
+    margin-left: 2%;
+    background-color:  #017ABF;
+    border-radius: 60px;
+}
+
+/*---------------------- WHO WE ARE SECTION ------------------*/
+.who-are-we-image{
+    position: relative;
+    top:15%;
+    width: 90%;
+}
+.h1-who-we-are{
+    width: 80%;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+.right-side-who-we-are span{
+    color:#48ACDF;
+}
+.right-side-who-we-are p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    line-height: 1.8rem;
+    width: 90%;
+}
+.right-side-btn{
+    margin-left: 0%;
+    background-color: #48ACDF;
+    border: none;
+    margin-bottom: 5%;
+}
+.impact-h1{
+    width: 90%;
+    font-weight: 500;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.impact-left-content{
+    padding: 5%;
+}
+.impact-left-content span{
+    color:#48ACDF;
+}
+.impact-numbers{
+    margin-top:5% ;
+}
+.impact-img{
+    width: 95%;
+    /* margin-top: 20%; */
+    margin-left: 5%;
+    position: relative;
+    bottom: 470px;
+    z-index: 1;
+}
+h3{
+    font-family:'Gothic A1', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 2%;
+    margin-bottom: 7%;
+    line-height: 1.4rem;
+}
+.impact-top-content{
+    margin-bottom: 5%;
+}
+.impact-top-content p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+.impact-bottom-content p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+.yellow-background{
+   background-color:  #FCB82E;
+   /* margin-top: 5%; */
+   width: 60%;  
+   padding: 50% 40%;
+   position: relative;
+   top: 5%;
+   left: 30%;
+   z-index: -1;
+}
+
+
+/* JOIN THE CHANGE */
+.join-the-change-background{
+    background-color:  #017ABF;
+    padding: 5%;
+    /* height: 60%; */
+    padding-bottom: 25%;
+}
+.join-the-change-content h1{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 500;
+    color: white;
+}
+.column-images{
+    text-align: center;
+    margin-top: 5%;
+    position: relative;
+    bottom: 450px;
+}
+.col-image-para{
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom : 23%;
+    /* font-size: 2rem; */
+    font-weight: 700;
+   /* line-height: 1.2rem; */
+}
+.col-image-para-2{
+    position: relative;
+    bottom: 27%;
+}
+.col-image-para span{
+    font-family: 'Libre Baskerville', serif;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom : 23%;
+    font-size: 1.3rem;
+    font-weight: 700;
+   line-height: 2rem;
+}
+/* STORIES OF CHANGE */
+.donate-h1{
+    color: #017ABF;
+    text-align: center;
+    font-family:  'Gloria Hallelujah', cursive;
+}
+.donate-background{
+    background-color: #9CCC3C;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.change-story-image{
+    text-align: center;
+    padding: 2%;
+    padding-top: 5%;
+}
+.donate-left-content{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2rem;
+    position: relative;
+    right: 3% ;
+    bottom: 17%;
+}
+
+.change-story-right h3{
+    text-align: center;
+    font-family:'Gothic A1', sans-serif; 
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: white;
+    margin-top: 15%;
+}
+.change-story-right p{
+    text-align: center;
+    width: 70%;
+    color: white;
+    /* font-size: 1.5rem; */
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-left: 15%;
+}
+.donate-button{
+    text-align: center;
+    background-color: #FFBE00;
+    color: white;
+    font-family: 'Gothic A1',sans-serif;
+    position: relative;
+    left: 25%;
+    margin-bottom: 5%;
+}
+.donate-button-1{
+    text-align: center;
+    background-color: #FFBE00;
+    color: white;
+    font-family: 'Gothic A1',sans-serif;
+    padding: auto 30%;
+    position: relative;
+    left: 35%;
+}
+.screenshot-image{
+    width: 80%;
+    position: relative;
+    /* left:15%; */
+}
+.screenshot-image-right{
+    width: 80%;
+    position: relative;
+    bottom: 20%;
+}
+.h1-media-program{
+    text-align: center;
+}
+.media-program{
+    color: #017ABF;
+}
+.media-program-left-side img{
+    /* margin:4%;    */
+    margin-top:10%;
+    width: 90%;
+}
+.media-program-right-side{
+
+    width: 50%;
+ 
+}
+.media-program-right-side h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+.media-program-right-side p{
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 3rem;
+}
+.media-btn{
+    padding: 2%;
+    background-color: #FFBE00;
+    color: black;
+}
+.supporters-donors-content{
+    margin-top: 10%;
+}
+.donors-content{
+    text-align: center;
+}
+.donors-content span{
+    color: #017ABF;
+}
+.donors-info{
+    margin-top: 5%;
+}
+.donors-images{
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+}
+.vol-total-info{
+    width: 80%;
+    margin: 3%;
+    /* filter:drop-shadow(30px 10px 4px rgb(80, 80, 80)); */
+}
+.vol-name{
+    width: 80%;
+    line-height: 3rem;
+}
+
+/* corporate */
+.corporate-donors{
+    margin: 10%;
+    margin-left: 15%;
+}
+.corporate-img{
+    text-align: center;
+    margin: 20%;
+    width: 7rem;
+
+}
+.first-half{
+    position: relative;
+    left: 10%;    
+}
+.second-half{
+    position: relative;
+    left: 20%;
+}
+
+.footer-background{
+    background-color: #212121;
+    color: white;
+}
+.footer-content{
+    margin: 5%;
+}
+.yellow-font{
+    color:#FFBE00;
+    font-family: 'Gothic A1',sans-serif;
+    font-weight: bold;
+}
+.footer-image{
+    width: 100%;
+}
+hr{
+    background-color: #FFBE00;
+    border: 3px solid #FFBE00;
+    /* border-color:#FFBE00 */
+}
